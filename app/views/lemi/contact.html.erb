@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>contact</title>
+		
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<%= stylesheet_link_tag "normalize" %>
+		<%= stylesheet_link_tag "contact" %>
+	</head>
+	<body>
+
+	<body>
+
+	<%= render "header" %>
+
+<div id="contact">
+<%= form_for(@user) do |f| %>
+	<p class="menu3"><font face="HGP教科書体">問い合わせ</font></p>
+	<p class="menu4"><font face="HGP教科書体">- CONTACT -</font></p>
+	<p class="menu5"><font face="HGP教科書体">神戸電子へのアクセス、わからないことなどお気軽にお問い合わせください。</font></p>
+		<dl>
+			<div class="NAME1">
+			<dt><font face="HGP教科書体"><p>お名前</p></font></dt>
+			</div>
+			<div class="NAME2">
+		  <dd><%= f.text_field :name, class: "name" %></dd>
+		</div>
+		<div class="EMAIL1">
+			<dt><font face="HGP教科書体"><p>メールアドレス</p></font></dt>
+			</div>
+			<div class="EMAIL2">
+			<dd><%= f.text_field :mail, class: "email" %></dd>
+		</div>
+			<div class="MESSAGE1">
+			<dt><font face="HGP教科書体"><p>お問い合わせ内容</p></font></dt>
+			</div>
+			<div class="MESSAGE2">
+			<dd><%= text_area :info, :message, class: "message" %></dd>
+		</dl>
+		<div class="BUTTEN">
+			<%= f.submit "送信する", class: "butten" %>
+		</div>
+<% end %>
+</div>
+	</body>
+</html>

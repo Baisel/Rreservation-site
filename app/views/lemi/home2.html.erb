@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Home - LIBERTY</title>
+
+	<!--  CSS -->
+	<%= stylesheet_link_tag "normalize" %>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<%= stylesheet_link_tag "style2" %>
+
+</head>
+
+<body>
+
+<%= render :partial => "header" %>
+
+<main class="wrapper">
+	<div class="box1">
+		<div class="box1-1">
+			<%= image_tag("VR.svg") %>
+		</div>
+		<div class="box1-2">
+		<h1>LIBERTY</h1>
+		</div>
+		<div class="box1-3">
+			<div class="boxB">
+			<div class="box1-3-1 festival">
+				<p class="god"><font face="HGP教科書体"><strong>神戸電子専門学校学園祭　神フェス</strong></font></p>
+				<p class="day"><font face="HGP教科書体"><strong>10月28日 (土) / 10月29日(日)</strong></font></p>
+				<a href="http://www.kobedenshi.ac.jp/">
+				<p class="kdHp"><font face="HGP教科書体">神戸電子専門学校 HP</font></p>
+				</a>
+			</div>
+			<div class="box1-3-2 performance">
+			<a href="reservation1" >
+			<p class="reserve"><font face="HGP教科書体">前売り券 予約</font></p>
+			</a>
+			<a href="onTheDay.html" >
+				<p class="thatDay"><font face="HGP教科書体">当日案内 !</font></p>
+			</a>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="box2">
+	<a href="https://www.facebook.com/kobesound/">
+	<%= image_tag("dealer.jpeg", :class => "dealer") %>
+	<%= image_tag("apollo.svg", :class => "apollo") %>
+	</a>
+	</div>
+</main>
+<!-- js -->
+<script src="js/jquery-3.1.1.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>ABOUT - LIBERTY</title>
+
+	<!--  CSS -->
+
+	<%= stylesheet_link_tag "normalize" %>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<%= stylesheet_link_tag "style2.5" %>
+</head>
+
+<body>
+
+<%= render :partial => "header" %>
+
+<main class="wrapper">
+	<article class="about">
+	<p><font face="HGP教科書体">アトラクション情報</face></p>
+	<h1><font face="HGP教科書体">― ABOUT ―</face></h1>
+	</article>
+	<div class="boxA-1">
+		<div class="A-1-1">
+			<font face="HGP教科書体"><h2><strong>■サウンドアトラクションとは？</strong></h2>
+			<p>サウンドアトラクションは、カリキュラムである「音響設計」の授業成果を発表する場として、<br>2009年度の神戸電子専門学校サウンドクリエイト学科の学生が始めた取り組みです。当時は音響のみの作品でした。</p>
+			<p>年々規模が大きくなるにつれて、校内の施設等を利用し、一つの「参加型アトラクション」として現在に引き継がれています。<br>
+アトラクションの形態は年度によって様々で、わくわくする冒険から背筋の凍るホラーまで全て学生の手によって企画されています。</p>
+			<p>2017年度サウンドアトラクションをお楽しみに！</p></face>
+			<%= image_tag("past-1.png") %>
+		</div>
+	</div>
+	<div class="boxA-2">
+		<div class="A-2-1">
+			<font face="HGP教科書体"><h2><strong>■VR(Virtual Reality)とは？</strong></h2>
+			<p>VRとは、一般的に「仮想現実」と訳されます。<br>主にコンピューターや電子技術を用いて、人間の視覚、聴覚、触覚、嗅覚、味覚といった五感を刺激し、あたかも現実にいるかのように体感させる概念や技術のことです。</p>
+			<p>今回のアトラクションでは、頭部にゴーグルのように装着するHMD(Head Mount Display)を用いて、360度全天球の映像から、ユーザーが見たい方向を見られるシステムをお楽しみいただけます。</p></face>
+			<%= image_tag("past-1.png", :class => "vrImg1") %>
+			<%= image_tag("image3.jpg", :class => "vrImg2") %>
+			<%= image_tag("HMD.jpg", :class => "vrImg3") %>
+			<%= image_tag("image1.jpg", :class => "vrImg4") %>
+
+		</div>
+	</div>
+	<div class="boxA-3">
+			<%= image_tag("image1.jpg") %>
+		<img src="images/image1.jpg" alt="">
+	</div>
+</main>
+<!-- js -->
+<script src="js/jquery-3.1.1.min.js"></script>
+</body>
+</html>

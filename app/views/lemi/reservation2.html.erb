@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>contact</title>
+		<%= stylesheet_link_tag "reservation2" %>
+	</head>
+	<body>
+	<%= render :partial => "header" %>
+<div id="backsheet">
+	<div class="TIME">
+		<p>参加希望時間</p>
+	</div>
+	<%= form_for @user, :url => {:action => 'reservation3'} do |f| %>
+		<%= select :info, :time, {"お選びください" => "","10:00~10:15" => 1, "10:10~10:25" => 2},{},{class: "time"} %>
+			
+		<div class="NAME">
+			<p>お名前</p>
+		</div>
+		<div class="name">
+			<%= f.text_field :name, class: "Name", maxlength: 20 %>
+		</div>
+		<div class="EMAIL">
+			<p>メールアドレス</p>
+		</div>
+		<div class="email">
+			<%= f.text_field :mail, class: "Email" %>
+		</div>
+		<div class="BUTTEN1">
+			<%= link_to '前に戻る', 'reservation1', class: "butten1" %>
+		</div>
+		<div class="BUTTEN2">
+			<%= f.submit '入力確認画面へ', class: "butten2" %>		
+		</div>
+	<% end %>
+</div>
+</body>
+</html>

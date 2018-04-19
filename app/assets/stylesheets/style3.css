@@ -1,0 +1,747 @@
+@charset "UTF-8";
+
+/* ���� */
+body {
+	font-family: '���C���I', 'Hiragino Kaku Gothic Pro', sans-serif;	
+    background-image: url(/assets/backgroundImg.jpg);
+	background-size: 1454px;
+}
+
+/* �i�r�Q�[�V�������j���[  */
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li a {
+	display: block;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+	border-right: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+}
+
+nav li.first a {
+	border-left: solid 1px #fff;
+}
+
+nav li a p.menu1 {
+	font-size: 11px;
+	margin: 3px 0 5px 0;
+}
+
+nav li a p.menu2 {
+	font-size: 22px;
+	margin: 0 0 5px 0;
+}
+
+nav li a:hover {
+	background-color: #eee;
+}
+
+nav ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav li {
+	float: left;
+	width: 20%;
+	text-align: center;
+	background-color: #000;
+	opacity: 0.5;
+}
+
+/* ########### �������� CHARACTERS ##########*/
+
+/* �R���e���c�̒����z�u */
+article.about {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* ���o���ɂ��� */
+article.about p {
+	color: #fff;
+}
+.about {
+	padding: 0;
+	margin: 0;
+}
+.about h1 {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-size: 26px;
+}
+
+.about p {
+	margin: 20px auto 0 auto;
+}
+
+/* �R���e���c�̒��g�ɂ��� */
+.chara {
+	width: 880px;
+	margin: 20px auto 50px auto;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+
+.chara-1, .chara-2, .chara-3 {
+	padding-left: 100px;
+}
+
+/* ���� */
+.chara-1 p.yakumei {
+	padding:5px 25px;
+	border: solid 1px gray;
+	display: inline-block;
+	background-color: #000;
+	font-size: 22px;
+}
+
+.chara-2 p.yakumei {
+	padding:5px 16px;
+	border: solid 1px gray;
+	display: inline-block;
+	background-color: #000;
+	font-size: 22px;
+}
+
+.chara-3 p.yakumei {
+	padding:5px 29px;
+	border: solid 1px gray;
+	display: inline-block;
+	background-color: #000;
+	font-size: 22px;
+}
+
+/* ���Җ� */
+.chara p.actor {
+	display: inline-block;
+	font-size: 18px;
+	background: rgba(0, 0, 0, 0);
+	margin-left: 30px;
+	padding: auto 30px auto;
+	border: solid 0 #000;
+}
+
+/* ������ */
+hr#matu {
+	height: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width:50%;
+	border-top: solid 1px gray;
+	position: absolute;
+	top: 58px;
+	left: 243px;
+}
+
+hr#rura {
+	height: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width:50%;
+	border-top: solid 1px gray;
+	position: absolute;
+	top: 373px;
+	left: 243px;
+}
+
+hr#bosu {
+	height: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width:50%;
+	border-top: solid 1px gray;
+	position: absolute;
+	top: 682px;
+	left: 243px;
+}
+/* ���i�̉摜�Ɛ����ɂ��� */
+/* ���i�̉摜�Ɛ��������ɕ��ׂ� */
+.chara-1-1:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.chara-1-1 img.matuImg {
+	float: left;
+	width: 30%;
+}
+
+.chara-1-1 p {
+	float: left;
+	width: 50%;
+}
+
+/* ���i�̐����̔����� */
+
+.chara-1-1 p.ue {
+	margin-top: 70px;
+	margin-left: 20px;
+}
+
+.chara-1-1 p.shita {
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+/* ���[���[�̉摜�Ɛ����ɂ��� */
+/* ���[���[�̉摜�Ɛ��������ɕ��ׂ� */
+.chara-2-1:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.chara-2-1 img.matuImg {
+	float: left;
+	width: 30%;
+}
+
+.chara-2-1 p {
+	float: left;
+	width: 50%;
+}
+
+
+/* ���[���[�̐����̔����� */
+
+.chara-2-1 p.ue {
+	margin-top: 90px;
+	margin-left: 20px;
+}
+
+.chara-2-1 p.shita {
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+/* �{�X�̉摜�Ɛ����ɂ��� */
+/* �{�X�̉摜�Ɛ��������ɕ��ׂ� */
+.chara-3-1:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.chara-3-1 img.matuImg {
+	float: left;
+	width: 30%;
+}
+
+.chara-3-1 p {
+	float: left;
+	width: 50%;
+}
+
+/* �{�X�̐����̔����� */
+
+.chara-3-1 p.ue {
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.chara-3-1 p.shita {
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+.chara-3-1 p.shita2 {
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+/* ########### �������� �����ē� ##########*/
+
+/* �R���e���c�̒����z�u �ς����� */
+article.toujitu {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* ���o���ɂ��� �ς�����*/
+article.toujitu p {
+	color: #fff;
+}
+.toujitu {
+	padding: 0;
+	margin: 0;
+}
+.toujitu h1 {
+	padding: 0;
+	margin: 20px auto;
+	color: #fff;
+	font-size: 26px;
+}
+
+/* �R���e���c�̒��g�ɂ��� */
+.onTheDay {
+	width: 880px;
+	margin: 20px auto 20px auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+
+.onTheDay-1, .onTheDay-2, .onTheDay-3 {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/* �����ē��̌��o���ɂ��� */
+.onTheDay-1 p.midashi {
+	padding:5px 25px 10px 25px;
+	margin: 0;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.onTheDay-2 p.midashi {
+	padding:5px 25px 0 25px;
+	margin: 0;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.onTheDay-3 p.midashi {
+	padding:5px 25px 0 25px;
+	margin: 0;
+	display: inline-block;
+	font-size: 18px;
+}
+
+/* �����ē��̓��e�ɂ��� */
+.onTheDay-1 p.naiyou {
+	display: inline-block;
+	font-size: 18px;
+	background: rgba(0, 0, 0, 0);
+	padding: 0;
+	margin-bottom: 0;
+	margin-left: 30px;
+	padding: auto 30px 0 auto;
+}
+
+.onTheDay-1 p.tadashigaki {
+	padding: 0;
+	margin-top: 0;
+	margin-left: 170px;
+}
+
+.onTheDay-2 p.naiyou {
+	display: inline-block;
+	font-size: 18px;
+	background: rgba(0, 0, 0, 0);
+	padding: 0;
+	margin-bottom: 0;
+	margin-left: 30px;
+	padding: auto 30px auto;
+}
+
+.onTheDay-3 p.naiyou {
+	display: inline-block;
+	font-size: 18px;
+	background: rgba(0, 0, 0, 0);
+	margin-left: 30px;
+	margin-bottom: 0;
+	padding: auto 30px auto;
+}
+
+.onTheDay-3 p.naiyou2 {
+	font-size: 18px;
+	padding: 0;
+	margin-top: 10px;
+	margin-left: 167px;
+}
+/* �_�˓d�q�����w�ZHP */
+.kdHp {
+	margin: 0;
+	padding: 0;
+}
+
+.onTheDay-2 a:hover {
+	opacity: 0.5;
+}
+
+.kdHp font{
+	font-size: 18px;
+	color: yellow;
+	background-color: #000;
+	margin-top: 26px;
+	margin-left: 170px;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	border: solid 2px gray;
+	border-left: solid 15px gray;
+	border-radius: 2px;
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+}
+
+/* �O���茔 �\�� */
+.onTheDay-3 a:hover {
+	opacity: 0.5;
+}
+
+.reserve font {
+	font-size: 18px;
+	color: yellow;
+	background-color: #000;
+	margin-left: 170px;
+	padding: 5px 10px;
+	border: solid 2px gray;
+	border-left: solid 15px gray;
+	border-radius: 2px;
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+}
+
+.onTheDay-3 p.tadashigaki {
+	padding: 0;
+	padding-top: 10px;
+	margin-left: 170px;
+	clear: both;
+}
+
+/* �w�Z�̃C���[�W�} */
+.onTheDay-3 img {
+	width: 18%;
+	height: auto;
+	margin-top : 10px;
+	margin-right: 30px;
+	float: right;
+}
+
+/* ########## ��������ACCESS ######## */
+/* �R���e���c�̒����z�u */
+article.access {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* ���o���ɂ��� */
+article.access p {
+	color: #fff;
+}
+.access {
+	padding: 0;
+	margin: 0;
+}
+.access h1 {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-size: 26px;
+}
+
+.access p {
+	margin: 20px auto 0 auto;
+}
+
+/* �R���e���c�̒��g�ɂ��� */
+.root {
+	width: 880px;
+	margin: 20px auto 20px auto;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+
+.root-1 {
+	padding-left: 180px;
+	padding-right: 180px;
+}
+
+
+/* �w�Z�̒n�} */
+.root-1 img {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin-top : 10px;
+}
+
+.root-1 a:hover {
+	opacity: 0.5;
+}
+
+.root-1-1 {
+	margin-top: 30px;
+}
+
+.root-1-2 {
+	margin-bottom: 5px;
+}
+
+.root-1-3 {
+	margin-top: 0;
+}
+
+.root-1-3 {
+	margin-bottom: 5px;
+}
+
+.root-1-4 {
+	margin-top: 0;
+}
+
+
+/* ########### �������� STORY ##########*/
+
+/* �R���e���c�̒����z�u */
+article.about {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* ���o���ɂ��� */
+article.about p {
+	color: #fff;
+}
+.about {
+	padding: 0;
+	margin: 0;
+}
+.about h1 {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-size: 26px;
+}
+
+.about p {
+	margin: 20px auto 0 auto;
+}
+
+/* �R���e���c�̒��g�ɂ��� */
+.story {
+	width: 880px;
+	margin: 20px auto 50px auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+
+.story-1 {
+	padding-left: 100px;
+}
+
+/* �X�g�[���[���e�̂̔����� */
+
+.story-1 p.sho {
+	margin-top: 0;
+	margin-left: 20px;
+	font-size: 18px;
+}
+
+.story-1 p.tyuu {
+	display: inline-block;
+	margin-top: 0;
+	margin-left: 20px;
+	font-size: 22px;
+}
+
+.story-1 p.tyuu2 {
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+	margin-left: 450px;
+	font-size: 22px;
+}
+
+.story-1 p.dai {
+	display: inline-block;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 20px;
+	font-size: 53px;
+	text-shadow: 1px 1px 15px #fff, -1px -1px 15px #fff;
+}
+
+.story-1 p.rubi {
+	margin-top: 20px;
+	margin-bottom: 0;
+	margin-left: 55px;
+	font-size: 18px;
+	text-shadow: 1px 1px 15px #fff, -1px -1px 15px #fff;
+}
+
+/* ########### �������� ���ӎ��� ##########*/
+
+/* �R���e���c�̒����z�u */
+article.attention0 {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* ���o���ɂ��� */
+article.attention0 p {
+	color: #fff;
+}
+.attention0 {
+	padding: 0;
+	margin: 0;
+}
+.attention0 h1 {
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 26px;
+}
+
+.attention0 p {
+	margin: 20px auto 0 auto;
+}
+
+/* �R���e���c�̒��g�ɂ��� */
+.attention {
+	width: 740px;
+	margin: 20px auto 50px auto;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+ul.attention1 {
+	margin-left: -40px;
+	margin-right: auto;
+	width: 100%;
+	list-style-type: none;
+}
+
+/* ���ӎ����̌��o���ɂ��� */
+.attention1 li.first {
+	font-size: 22px;
+	text-align: center;
+	padding: 10px 30px;
+	background-color: #000;
+	border: 1px solid white;
+}
+
+.attention1 li.first p {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+/* fontawesome�ɂ��� */
+i {
+	color: yellow;
+
+}
+
+.attention1 li.second {
+	font-size: 22px;
+	padding: 8px 20px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.attention1 li.third {
+	font-size: 22px;
+	padding: 8px 20px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.attention1 li.fours {
+	font-size: 22px;
+	padding: 8px 20px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.attention1 li.fifth {
+	font-size: 22px;
+	padding: 8px 20px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.second h1 {
+	font-size: 22px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.third h1 {
+	font-size: 22px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.fours h1 {
+	font-size: 22px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.fifth h1 {
+	font-size: 22px;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+/* ���ӎ����̓��e�ɂ��� */
+.second-1 {
+	font-size: 18px;
+	margin: 10px auto;
+}
+
+.third-1 {
+	font-size: 18px;
+	margin: 10px auto;
+}
+
+.fours-1 {
+	font-size: 18px;
+	margin: 10px auto;
+}
+
+.fifth-1 {
+	font-size: 18px;
+	margin: 10px auto;
+}
+/* ########## 1024px �ȉ� ########## */
+
+@media (max-width: 1024px) {
+nav {
+	width: 1024px;
+	margin: 0 auto;
+}
+}
+
+
+
+ {
+	outline: solid 1px red;
+}

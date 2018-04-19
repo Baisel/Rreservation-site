@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/* 共通 */
+body {
+	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+	background-image: url(../images/backgroundImg.jpg);
+	background-size: 1454px;
+}
+
+/* ナビゲーションメニュー  */
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li a {
+	display: block;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+	border-right: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+}
+
+nav li.first a {
+	border-left: solid 1px #fff;
+}
+
+nav li a p.menu1 {
+	font-size: 11px;
+	margin: 3px 0 5px 0;
+}
+
+nav li a p.menu2 {
+	font-size: 22px;
+	margin: 0 0 5px 0;
+}
+
+nav li a:hover {
+	background-color: #eee;
+}
+
+nav ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav li {
+	float: left;
+	width: 20%;
+	text-align: center;
+	background-color: #000;
+	opacity: 0.5;
+}
+
+/* コンテンツの配置 */
+body {
+	position: relative;
+}
+
+h1 {
+	display: block;
+	position: absolute;
+	top: 200%;
+	left: 7%;
+}
+
+.festival {
+	display: block;
+	position: absolute;
+	top: 580%;
+	left: 8%;
+}
+
+.festival p {
+	margin: 0 auto 10px auto;
+}
+
+p.kdHp {
+	display: block;
+	position: absolute;
+	top: 670%;
+	left: 8%;
+}
+
+p.reserve {
+	display: block;
+	position: absolute;
+	top: 530%;
+	left: 41%;
+}
+
+p.performanceDay {
+	display: block;
+	position: absolute;
+	top: 660%;
+	left: 41%;
+}
+/* タイトル */
+h1 {
+	font-family: "游明朝体", "Yu Mincho", YuMincho, serif;
+	font-size: 12vw;
+	color: #fff;
+	text-shadow: 30px 30px 8px #000;
+}
+
+
+
+/* festival */
+.festival {
+	color: #fff;
+	font-size: 1.8vw;
+} 
+
+/* mainのリンクの設定 */
+.kdHp {
+	padding: 14px 40px;
+	color: yellow;
+	background-color: #000;
+	font-size: 2.0vw;
+	border: solid 2px gray;
+	border-left: solid 20px gray;
+	border-radius: 2px;
+}
+
+.reserve {
+	padding: 10px;
+	color: yellow;
+	background-color: #000;
+	font-size: 2.6vw;
+	border: solid 2px gray;
+	border-left: solid 20px gray;
+	border-radius: 2px;
+}
+
+.performanceDay {
+	padding: 10px 18px 10px 21px;
+	color: yellow;
+	background-color: #000;
+	font-size: 2.6vw;
+	border: solid 2px gray;
+	border-left: solid 20px gray;
+	border-radius: 2px;
+}
+
+
+/* outline */
+ {
+	outline: 1px solid red;
+}

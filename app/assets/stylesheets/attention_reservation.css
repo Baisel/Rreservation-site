@@ -1,0 +1,25 @@
+.BUTTEN1 {
+position: relative;
+bottom: 30px;
+left: 380px;
+}
+.butten1 {
+  background-color: #009cd3;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  width: 160px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  margin-left: 165px;
+  border-radius: 5px;
+  border: 3px solid #009cd3;
+}
+ .butten1:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #009cd3;
+  cursor: pointer;
+}

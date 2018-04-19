@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>CHARACTERS - LIBERTY</title>
+
+  <!--  CSS -->
+
+<%= stylesheet_link_tag "normalize" %>
+<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<%= stylesheet_link_tag "style3" %>
+</head>
+
+<body>
+
+<%= render "header" %>
+
+<main class="wrapper">
+	<article class="about">
+	<p><font face="HGP教科書体">キャラクター</face></p>
+	<h1><font face="HGP教科書体">― CHARACTERS ―</face></h1>
+	</article>
+	<div class="chara">
+		<div class="chara-1">
+			<font face="HGP教科書体"><p class="yakumei"><strong>松　永</strong></p></face>
+			<font face="HGP教科書体"><p class="actor"><strong>演者　 ----------</strong></p></face><hr id="matu"></hr>
+			<div class="chara-1-1">
+				<%= image_tag("matunaga.jpg", :class => "matuImg",:class =>"matunaga") %>
+				<font face="HGP教科書体"><strong><p class="ue">正義感は人一倍強いが、その行動には些か<br>冷徹非常な傾向がある。</p><p class="shita">「フリーダム」という反社会組織を撲滅するために<br>建設された諜報機関のエージェント。</p></strong></face>
+			</div>
+		</div>
+		<div class="chara-2">
+			<font face="HGP教科書体"><p class="yakumei"><strong>ルーラー</strong></p></face>
+			<font face="HGP教科書体"><p class="actor"><strong>演者　 ----------</strong></p></face><hr id="rura"></hr>
+			<div class="chara-2-1">
+				<%= image_tag("dealer.jpeg", :class => "matuImg",:class =>"ルーラー") %>
+				<font face="HGP教科書体"><strong><p class="ue">不気味な仮面とスーツでいかにも怪しい人物。</p><p class="shita">自らの行いを正義だと主張している。</p></strong></face>
+			</div>
+		</div>
+		<div class="chara-3">
+			<font face="HGP教科書体"><p class="yakumei"><strong>ボ　ス</strong></p></face>
+			<font face="HGP教科書体"><p class="actor"><strong>演者　 ----------</strong></p></face><hr id="bosu"></hr>
+			<div class="chara-3-1">
+				<%= image_tag("bosu.png", :class => "matuImg",:class =>"ボス") %>
+				<font face="HGP教科書体"><strong><p class="ue">反社会運動撲滅組織「フリーダム」を結成し、<br>その統括を担っている実力派総監。</p>
+				<p class="shita">その猛々強い風貌と言動も相まって、<br>部下たちから「ボス」という相性で思慕されている。</p>
+				<p class="shita2">ルーラーとは因縁深い関係にある。</p></strong></face>
+			</div>
+		</div>
+	</div>
+</main>
+<!-- js -->
+<script src="js/jquery-3.1.1.min.js"></script>
+</body>
+</html>

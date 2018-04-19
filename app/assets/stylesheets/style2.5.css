@@ -1,0 +1,298 @@
+@charset "UTF-8";
+
+/* ���� */
+body {
+	background-image: url(/assets/backgroundImg.jpg);
+  background-position;
+	background-size: 1454px;
+}
+
+/* �i�r�Q�[�V�������j���[  */
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li a {
+	display: block;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+	border-right: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+}
+
+nav li.first a {
+	border-left: solid 1px #fff;
+}
+
+nav li a p.menu1 {
+	font-size: 11px;
+	margin: 3px 0 5px 0;
+}
+
+nav li a p.menu2 {
+	font-size: 22px;
+	margin: 0 0 5px 0;
+}
+
+nav li a:hover {
+	background-color: #eee;
+}
+
+nav ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav li {
+	float: left;
+	width: 20%;
+	text-align: center;
+	background-color: #000;
+	opacity: 0.5;
+}
+
+/* ########## ��������HOME�̐ݒ� ########## */
+/* box1-1�̐ݒ� */
+.box1-1 img {
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-left: 140px;
+	width: 80%;
+}
+
+/* box1-2�̐ݒ� */
+
+/* �^�C�g�� */
+.box1-2 h1 {
+	margin: 10px 0 auto 70px ;
+	padding-top: 10px;
+}
+h1 {
+	font-family: "��������", "Yu Mincho", YuMincho, serif;
+	font-size: 13vw;
+	color: #fff;
+	text-shadow: 30px 30px 8px #000;
+}
+
+/* festival */
+.festival {
+	margin-left:80px;
+	margin-right: 55px;
+	color: #fff;
+	font-size: 1.8vw;
+}
+
+.festival p {
+	margin: 0 auto 10px auto;
+}
+
+/* �_�˓d�q�����w�Z HP */
+.festival a {
+	display: block;
+	color: yellow;
+	font-size: 2.2vw;
+	text-decoration: none;
+}
+
+.festival a:hover {
+	opacity: 0.5;
+}
+
+.kdHp font{
+	background-color: #000;
+	margin-top: 26px;
+	padding: 5px 28px 5px 28px;
+	border: solid 2px gray;
+	border-left: solid 20px gray;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+/* box1-3-2�̐ݒ� */
+.box1-3-2 p{
+	margin: 0;
+	display: block;
+}
+
+.box1-3-2 p.thatDay {
+	margin-top: 36px;
+}
+
+.performance a {
+	display: block;
+	color: yellow;
+	font-size: 3vw;
+	text-decoration: none;
+}
+
+.performance a:hover {
+	opacity: 0.5;
+}
+
+.reserve font {
+	background-color: #000;
+	padding: 5px 10px;
+	border: solid 2px gray;
+	border-left: solid 20px gray;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.thatDay font {
+	background-color: #000;
+	padding: 5px 35px 5px 30px ;
+	border: solid 2px gray;
+	border-left: solid 20px gray;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+
+
+/* box2 �̐ݒ� */
+.box2 {
+	margin-left: 20px;
+	text-align: center;
+}
+
+.box2 a:hover {
+	opacity: 0.5;
+}
+
+.box2 img.dealer {
+	margin-top: 20px;
+	width: 30%;
+	height: auto;
+}
+
+.box2 img.apollo {
+	margin-top: 10px;
+	width: 100%;
+	height: auto;
+}
+/* ########## 1024px �ȉ� ########## */
+
+@media (max-width: 1024px) {
+ nav {
+	width: 1024px;
+	margin: 0 auto;
+}
+}
+/* ########### ��������ABOUT�̐ݒ� ########### */
+
+/* �R���e���c�̒����z�u */
+article.about {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* ���o���ɂ��� */
+article.about p {
+	color: #fff;
+}
+.about {
+	padding: 0;
+	margin: 0;
+}
+.about h1 {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-size: 26px;
+}
+
+.about p {
+	margin: 20px auto 0 auto;
+}
+
+/* �g�T�E���h�A�g���N�V�����Ƃ́H�h �ɂ���*/
+
+.A-1-1 {
+	width: 960px;
+	margin: 10px auto;
+	padding: 1px 0 0 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.A-1-1 h2 {
+	margin-left: 30px;
+	margin-right: 20px;
+	color: #fff;
+	font-size: 22px;
+}
+
+.A-1-1 p {
+	margin-left: 30px;
+	margin-right: 20px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.A-1-1 img {
+	width: 93%;
+	margin-left: 3%;
+}
+
+/* �gVR�Ƃ́H�h�@�ɂ��� */
+.A-2-1 {
+	width: 960px;
+	margin: 20px auto;
+	padding: 1px 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.A-2-1 h2 {
+	margin-left: 30px;
+	margin-right: 20px;
+	color: #fff;
+	font-size: 22px;
+}
+
+.A-2-1 p {
+	margin-left: 30px;
+	margin-right: 20px;
+	color: #fff;
+	font-size: 18px;
+}
+
+/* VR�̃C���[�W�摜�����ɕ��ׂ� */
+.A-2-1 img {
+	margin-top: 10px;
+	margin-right: 35px;
+	width: 20%;
+}
+
+.A-2-1 img.vrImg1 {
+	margin-left: 30px;
+}
+
+.A-2-1 img.vrImg4 {
+	margin-right: 30px;
+}
+
+/* VR�̃C���[�W���� */
+.boxA-3 {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.5);
+
+.boxA-3 img {
+	margin-top: 30px;
+	width: 30%;
+	height: auto;
+}
+
+
+
+/* ########### �������� CHARACTERS ##########*/
+
+�J�X�P�[�h�̗D�揇�ʂ̉e�����A�����s���ɂ����A�X�^�C���V�[�g�������Ȃ�����
+
+���������Astylesheet3�Ɉڍs�����B

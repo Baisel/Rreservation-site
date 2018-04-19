@@ -1,0 +1,156 @@
+@charset "UTF-8"
+
+body {
+  background-size: 1454px;
+  background-image: url(/assets/backgroundImg.jpg);
+}
+#contact {
+  background-color: black;
+  width: 1150px;
+  height: 600px;
+  opacity: 0.8;
+  margin-left: 55px;
+}
+#contact form .name {
+width: 200px;
+height: 30px;
+margin-left: 100px;
+font-size: 14px;
+}
+#contact form .email {
+  margin: 0;
+  width: 280px;
+  font-size: 14px;
+}
+#contact form .message {
+  width: 660px;
+  height: 200px;
+  font-size: 15px;
+}
+#contact form .butten {
+  background-color: rgb(213, 212, 98);
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  width: 120px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  margin-left: 165px;
+  border-radius: 5px;
+  border: 3px solid rgb(213, 212, 98);
+  position: relative;
+  left: -165px;
+}
+#contact form .butten:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgb(213, 212, 98);
+  cursor: pointer;
+}
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}
+dl {
+  color: white;
+}
+div .NAME1 {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+div .NAME2 {
+  margin-top: -43px;
+  margin-left: 267px;
+}
+div .EMAIL1 {
+  position: relative;
+  top: 33px;
+  left: 233px;
+}
+div .EMAIL2 {
+margin-top: -5px;
+margin-left: 365px;
+}
+div .MESSAGE1 {
+  margin: 0;
+  margin-top: 60px;
+  margin-left: 220px;
+}
+div .MESSAGE2 {
+margin-top: -34px;
+margin-left: 364px;
+}
+div .butten {
+
+
+
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li a {
+	display: block;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+	border-right: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+}
+
+nav li.first a {
+	border-left: solid 1px #fff;
+}
+
+nav li a p.menu1 {
+	font-size: 11px;
+	margin: 3px 0 5px 0;
+}
+
+nav li a p.menu2 {
+	font-size: 22px;
+	margin: 0 0 5px 0;
+}
+
+nav li a:hover {
+	background-color: #eee;
+}
+
+nav ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav li {
+	float: left;
+	width: 20%;
+	text-align: center;
+	background-color: #000;
+	opacity: 0.5;
+}
+.menu3 {
+position: relative;
+top: 15px;
+	font-size: 11px;
+	text-align: center;
+}
+.menu4 {
+	font-size: 22px;
+  text-align: center;
+}
+.menu5 {
+  text-align: center;
+}

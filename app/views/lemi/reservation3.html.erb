@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>contact</title>
+		<%= stylesheet_link_tag "reservation3" %>
+	</head>
+	<body>
+		<%= render :partial => 'header' %>
+		<div id="backsheet">
+			<p class="head">入力内容確認</p>
+			<p class="dt1">お名前</p>
+			<p><%= $user_info2['name'] %></p>
+			<p class="dt2">メールアドレス</p>
+			<p><%= $user_info2['mail'] %></p>
+			<p class="dt3">参加希望日</p>
+			<p><%= $date %></p>
+			<p class="dt4">参加希望時間</p>
+			<p><%= $time %></p>
+			<p class="dt5">参加希望人数</p>
+			<p><%= $user_info1['num'] %></p>
+			<div class="BUTTEN1">
+				<%= link_to '次に進む', '/lemi/attention_reservation', class: "butten1" %>
+			</div>
+		</div>
+	</body>
+</html>
+

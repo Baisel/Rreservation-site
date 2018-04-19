@@ -1,0 +1,2 @@
+class Reser < ApplicationRecord
+end

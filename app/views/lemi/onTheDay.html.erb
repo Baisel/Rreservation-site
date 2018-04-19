@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>当日案内 - LIBERTY</title>
+
+  <!--  CSS -->
+
+<%= stylesheet_link_tag "normalize" %>
+<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<%= stylesheet_link_tag "style3" %>
+</head>
+
+<body>
+
+<header>
+	<nav>
+	<ul>
+	<li class="first"><a href="home2.html">
+		<p class="menu1"><font face="HGP教科書体">ホーム</font></p>
+		<p class="menu2"><font face="HGP教科書体">HOME</font></p>
+	</a></li>
+	<li><a href="about.html">
+		<p class="menu1"><font face="HGP教科書体">アトラクション情報</font></p>
+		<p class="menu2"><font face="HGP教科書体">ABOUT</font></p>
+	</a></li>
+	<li><a href="story.html">
+		<p class="menu1"><font face="HGP教科書体">ストーリー</font></p>
+		<p class="menu2"><font face="HGP教科書体">STORY</font></p>
+	</a></li>
+	<li><a href="characters.html">
+		<p class="menu1"><font face="HGP教科書体">キャラクター</font></p>
+		<p class="menu2"><font face="HGP教科書体">CHARACTERS</font></p>
+	</a></li>
+	<li><a href="contact.html">
+		<p class="menu1"><font face="HGP教科書体">問い合わせ</font></p>
+		<p class="menu2"><font face="HGP教科書体">CONTACT</font></p>
+	</a></li>
+	</ul>
+	</nav>
+</header>
+
+<main class="wrapper">
+	<article class="toujitu">
+	<h1><font face="HGP教科書体">― 当日案内 ―</face></h1>
+	</article>
+
+	<div class="onTheDay">
+		<div class="onTheDay-1">
+			<font face="HGP教科書体"><p class="midashi"><strong>開催日時：
+</strong></p></face>
+			<font face="HGP教科書体"><strong><p class="naiyou">10月28日(土) / 10月29日(日)　10：00～15：30</p><p class="tadashigaki">※1回の所要時間は15分程度です</p></strong></face><hr id="day"></hr>
+		</div>
+		<div class="onTheDay-2">
+			<font face="HGP教科書体"><p class="midashi"><strong>開催場所：</strong></p></face>
+			<font face="HGP教科書体"><p class="naiyou"><strong>神戸電子専門学校４F（コラボレーションスタジオ）</strong></p></face>
+			<p class="kdHp"><a href="http://www.kobedenshi.ac.jp/"><font face="HGP教科書体"><strong>神戸電子専門学校 HP</strong></font></a></p>
+			<hr id="place"></hr>
+		</div>
+		<div class="onTheDay-3">
+			<%= image_tag("school.jpg", :alt => "神戸電子専門学校") %>
+			<font face="HGP教科書体"><p class="midashi"><strong>　料　金　：</strong></p></face>
+			<font face="HGP教科書体"><p class="naiyou"><strong>前売り券 300円 / 当日券 400円</strong></p></face>
+			<font face="HGP教科書体"><p class="naiyou2"><strong>前売り券は事前に下記ボタンからネット予約できます</strong></p></face>
+			<p class="reserve"><a href="#" ><font face="HGP教科書体"><strong>前売り券 予約</strong></font></a></p>
+			<p class="tadashigaki">※希望日時が埋まってしまう可能性がございますので早めのご連絡をお勧めいたします</p></strong></face>
+			<hr id="fee"></hr>
+		</div>
+	</div>
+
+	<article class="access">
+	<p><font face="HGP教科書体">アクセス</face></p>
+	<h1><font face="HGP教科書体">― ACCESS ―</face></h1>
+	</article>
+
+	<div class="root">
+		<div class="root-1">
+			<a href="https://www.google.co.jp/maps/place/%E7%A5%9E%E6%88%B8%E9%9B%BB%E5%AD%90%E5%B0%82%E9%96%80%E5%AD%A6%E6%A0%A1/@34.7006618,135.1731164,13z/data=!4m5!3m4!1s0x60008edd1fe54845:0xb872547b0f538bea!8m2!3d34.699621!4d135.193115"><img src="images/kobedenshiGoogleMap.png" alt="神戸電子専門学校の地図"></a>
+			<font face="HGP教科書体">
+			<p class="root-1-1"><strong>〒650-0002　兵庫県神戸市中央区北野町1－1－8</strong></p>
+			</face>
+			<font face="HGP教科書体">
+			<p class="root-1-2"><strong>&#9673;三ノ宮駅・新神戸駅から徒歩10分</strong></p>
+			</face>
+			<font face="HGP教科書体">
+			<p class="root-1-3"><strong>JR「三ノ宮」駅　  地下鉄・ポートライナー「三宮」駅　  阪急・阪神「神戸三宮」駅</strong></p>
+			</face>
+			<font face="HGP教科書体">
+			<p class="root-1-4"><strong>新幹線・地下鉄「新神戸」駅</strong></p>
+			</face>
+		</div>
+	</div>
+</main>
+<!-- js -->
+<script src="js/jquery-3.1.1.min.js"></script>
+</body>
+</html>

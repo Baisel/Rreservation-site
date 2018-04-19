@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>注意事項 - LIBERTY</title>
+
+  <!--  CSS -->
+	<%= stylesheet_link_tag "normalize" %>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjapanese.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+
+	<%= stylesheet_link_tag "style3" %>
+	<%= stylesheet_link_tag "attention_reservation" %>
+</head>
+
+<body>
+
+<%= render :partial => 'header' %>
+
+<main class="wrapper">
+	<article class="attention0">
+	<h1><font face="HGP教科書体">― 注意事項 ―
+	<br>一番下に予約完了ボタンがあります</face></h1>
+	</article>
+	<div class="attention">
+		<ul class="attention1">
+			<font face="HGP教科書体"><strong>
+			<li class="first">
+				<i class="fa fa-warning"></i></i>　
+				<p>アトラクションにご参加されるにあたって必ずお読みください</p>
+			</li>
+			<li class="second">
+				<h1>■ご参加いただけない方</h1>
+				<p class="second-1">体調のすぐれない方　心臓の弱い方　妊娠中の方</p>
+				<p class="second-1">聴覚・視覚に障害をお持ちの方　泥酔されている方</p>
+				<p class="second-1">※お体の不自由な方はスタッフにお尋ねください。</p>
+				<p class="second-1">※その他ご参加により悪化する恐れのある症状をお持ちの方は、ご参加をご遠慮ください。</p>
+				<p class="second-1">※13歳未満のお客様は保護者同伴でご参加ください。</p>
+				<hr>
+			</li>
+			<li class="third">
+				<h1>■ご参加いただけない症状</h1>
+				<p class="third-1">けいれん発作　高血圧　めまい　閉所恐怖症　呼吸器系疾患　騒音過敏症　暗所恐怖症</p>
+				<p class="third-1">首・背中・腰の疾患　肌の弱い方</p>
+				<hr>
+			</li>
+			<li class="fours">
+				<h1>■ご参加にあたっての注意事項</h1>
+				<p class="fours-1">&#9673;安全のためご入場を制限することがございます。</p>
+				<p class="fours-1">&#9673;故障・メンテナンスなどの理由により、稼働を停止することがございます。</p>
+				<p class="fours-1">&#9673;激しい動きはありませんが、なるべく動きやすい服装・お履物でご参加ください。</p>
+				<p class="fours-1">&#9673;気分が悪くなったり、身体に異常を感じたりした際は、直ちにスタッフまでお申し付けください。</p>
+				<hr>
+			</li>
+			<li class="fifth">
+				<h1>[ メガネをご利用のお客様について ]</h1>
+				<p class="fifth-1">&#9673;メガネをかけたままでもVRゴーグルを装着することは可能ですが、メガネの形状・大きさによっては装着できない場合もございます。</p>
+				<p class="fifth-1">&#9673;メガネの破損に関しましては一切の責任を負いかねます。</p>
+				<p class="fifth-1">&#9673;遠近両用メガネ（遠近両用コンタクトレンズを含む）では、快適にご視聴いただけない場合が<br>ございます。</p>
+			</li>
+			</strong></face>
+		</ul>
+	</div>
+	<div class="BUTTEN1">
+	<!--
+	<button type="button" name="dtn" class="butten1"><a href="reservation4.html">予約完了する</a></button>
+	-->
+	<%= link_to '予約完了する', '/lemi/reservation4', class: "butten1" %>
+</main>
+<!-- js -->
+<script src="js/jquery-3.1.1.min.js"></script>
+</body>
+</html>
